@@ -5,7 +5,9 @@
   "main": "src/index.html",
   "scripts": {
     "test": "karma start",
-    "start": "gulp"
+    "prestart": "npm install && bower install",
+    "start": "gulp",
+    "lint": "eslint src/"
   },
   "repository": {
     "type": "git",
