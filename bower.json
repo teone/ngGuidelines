@@ -1,0 +1,23 @@
+{
+  "name": "ng-guidelines",
+  "description": "",
+  "main": "src/index.html",
+  "authors": [
+    "Matteo Scandolo"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/teone/ngGuidelines",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-route": "~1.4.8",
+    "angular": "~1.4.8"
+  }
+}
